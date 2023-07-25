@@ -70,12 +70,27 @@ button:hover {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         flex-grow: 1;
     }
 
     img  {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 }
+
+@media (max-width: 500px) {
+    #dice {
+        gap:0.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    img {
+        width: 120px;
+        height: 120px;
+    }
+    #winnerBanner {
+        font-size:1.2rem;
+    }
