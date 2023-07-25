@@ -68,12 +68,12 @@ button:hover {
 
 
     h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         flex-grow: 1;
     }
 
     img  {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 }
